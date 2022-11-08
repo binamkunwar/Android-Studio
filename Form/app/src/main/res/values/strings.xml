@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="member_form">Membership Form</string>
+    <string name="health_club">National College Health Club</string>
+    <string name="submit">Submit</string>
+    <string name="fullname"> Full Name</string>
+    <string name="Gender"> Gender</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="other">Other</string>
+</resources>

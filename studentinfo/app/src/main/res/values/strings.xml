@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+
+    <string-array name="provience_name">
+        <item>Province 1</item>
+        <item>Province 2</item>
+        <item>Bagmati Province</item>
+        <item>Gandaki Province</item>
+        <item>Lumbini Province</item>
+        <item>Karnali Province</item>
+        <item>Sudurpaschim Province</item>
+    </string-array>
+    <string name="policy">I read all the terms and condition and I agree</string>
+</resources>

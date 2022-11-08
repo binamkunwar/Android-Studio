@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">form</string>
+    <string name="one">Full Name</string>
+    <string-array  name="spinner_items">
+        <item>BCA</item>
+        <item>BBM</item>
+        <item>BBA</item>
+
+    </string-array>
+</resources>

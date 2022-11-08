@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string-array name="carBrands">
+        <item>ferrari</item>
+        <item>McLaren</item>
+        <item>Jagura</item>
+        <item>Skoda</item>
+        <item>Suzuki</item>
+        <item>Hyundai</item>
+        <item>Toyota</item>
+        <item>Renault</item>
+        <item>Mercedies</item>
+        <item>BMW</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Chevrolt</item>
+        <item>Volkswagon</item>
+    </string-array>
+</resources>

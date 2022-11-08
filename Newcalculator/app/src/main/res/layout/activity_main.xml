@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvsec"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/black_shade_3"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:paddingTop="30dp"
+        android:text=""
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        tools:ignore="RtlCompat"
+        />
+
+    <TextView
+        android:id="@+id/tvmain"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvsec"
+        android:background="@color/black_shade_3"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:padding="20dp"
+        android:text=""
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="RtlCompat" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvmain"
+        android:layout_marginTop="5dp"
+        android:background="@color/black_shade_1"
+        app:cardBackgroundColor="@color/black_shade_1"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="400sp"
+            android:layout_height="600dp"
+            android:background="@color/black_shade_1"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/idBtnAC"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="AC"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnC"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="5dp"
+                    android:text="C"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnL"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="("
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnR"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text=")"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/idBtn9"
+                    android:layout_width="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="9"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="InvalidId,Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn8"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="8"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn7"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="7"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnP"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="+"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/idBtn6"
+                    android:layout_width="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="6"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="InvalidId,Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn5"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="5"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn4"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="4"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnS"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="-"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/idBtn3"
+                    android:layout_width="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="3"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="InvalidId,Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn2"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="2"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn1"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="1"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnM"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="*"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/idBtnO"
+                    android:layout_width="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="."
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="InvalidId,Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtn0"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="0"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnD"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="/"
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+
+                <Button
+                    android:id="@+id/idBtnE"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black_shade_2"
+                    android:padding="6dp"
+                    android:text="="
+                    android:textColor="@color/yellow"
+                    android:textSize="19dp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

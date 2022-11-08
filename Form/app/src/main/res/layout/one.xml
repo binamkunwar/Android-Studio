@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/member_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_form"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/health_club"
+        android:textSize="20sp"
+        android:textColor="@color/purple_200"
+        android:layout_below="@+id/member_form"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullname"
+        android:hint="fullname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/health"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/Gend_er"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/fullname"/>
+
+    [Yesterday 8:25 AM] RISHIKA GUPTA
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gender"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/Gend_er"
+        android:layout_below="@+id/fullname">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:layout_marginLeft="60dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/female" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:id="@+id/other"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/current_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gend_er"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Current Weight" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/height"
+        android:hint="Height"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/Gend_er"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goal_weight"
+        android:hint=" Goal Weight"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/height"/>
+
+
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/height"
+
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:hint="Phone Number"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/goal_weight"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:hint="Address"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/phone"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have read,understand and accepet the membership rule "
+        android:textSize="14dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/read"
+        android:textStyle="bold"
+        android:layout_below="@+id/add"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginLeft="135dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/read"/>
+
+
+
+
+    </LinearLayout>

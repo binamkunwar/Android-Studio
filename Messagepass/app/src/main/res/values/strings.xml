@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Messagepass</string>
+    <string name="one"> this is first xml file</string>
+    <string name="two">this is second xml file</string>
+</resources>

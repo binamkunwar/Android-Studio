@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseClass</string>
+    <string name="hello_class">Hello Class</string>
+    <string name="first_question">Is native good than cross platform ?</string>
+    <string name="true_value">True</string>
+    <string name="false_value">False</string>
+</resources>
